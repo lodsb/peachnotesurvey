@@ -30,6 +30,17 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-9937279-8', 'auto');
+        ga('send', 'pageview');
+    </script>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -128,7 +139,7 @@
                                 See how composers influenced each other throughout the history
                             </li>
                             <li>
-                                See how musical pieces are connected by quotations
+                                See how musical pieces are connected by quotations and borrowings
                             </li>
                         </ul>
                     </td>
@@ -179,11 +190,11 @@
             <div class="col-lg-8 col-lg-offset-2" style="font-size:24px; line-height: 50px; font-family:open sans;">
                 <h1 class="brand-heading" style="color: #ba7c33">Your opinion matters</h1>
 
-                Which tools should we build for you?<br>
+                Which tools should we build for you first?<br>
                 Tell us and be the first to know<br>
                 when we have built them for you. <br>
 
-                <a href="https://docs.google.com/forms/d/1znpMOy_xWsbtz9Xocbxkrykc7ndbdex3IJsBBEjY3R0/viewform"
+                <a id="survey-butt" href="https://docs.google.com/forms/d/1znpMOy_xWsbtz9Xocbxkrykc7ndbdex3IJsBBEjY3R0/viewform"
                    class="btn btn-default btn-lg btn-survey" style="margin-top: 55px; margin-bottom: 50px;">To the Survey</a>
             </div>
         </div>
@@ -207,6 +218,13 @@
 <script src="js/jquery.easing.min.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="js/grayscale.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+        $("#survey-butt").click(function() {ga('send', 'event', 'Survey', 'Click', 'Music-Connection-Machine');});
+    });
+</script>
 
 </body>
 
