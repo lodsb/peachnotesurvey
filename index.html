@@ -11,6 +11,12 @@
 
     <title>Music Connection Machine</title>
 
+    <meta property="og:url"           content="http://musicconnectionmachine.org" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="The Music Connection Machine" />
+    <meta property="og:image"         content="https://cde.peru.com/ima/0/1/4/6/7/1467201/924x530/ateneo-grand-splendid.jpg" />
+    <meta property="og:description"   content="If you knew every recording, every score and every book by heart, what would you do?" />
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -50,6 +56,18 @@
         ga('send', 'pageview');
     </script>
 
+    <style>
+        /* This gets Facebook to fall into place */
+        .social iframe {
+            vertical-align: bottom;
+        }
+
+        /* Set an optional width for your button wrappers */
+        .social span {
+            display: inline-block;
+            width: 110px;
+        }
+    </style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -74,7 +92,7 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#plan">Plan</a>
+                    <a class="page-scroll" href="#goal">Goal</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#features">Features</a>
@@ -110,7 +128,7 @@
                         If you knew every recording,<br> every score and every book by heart<br><br>
                         <span style="font-family: 'Indie Flower', cursive; font-weight: 700; font-size: 44px">What would you do?</span>
                     </h3>
-                    <a href="#plan" class="btn btn-circle page-scroll">
+                    <a href="#goal" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>
@@ -120,7 +138,7 @@
 </header>
 
 <!-- About Section -->
-<section id="plan" class="container content-section text-center" style="padding-top: 150px; padding-bottom: 70px;">
+<section id="goal" class="container content-section text-center" style="padding-top: 150px; padding-bottom: 70px;">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Let's find out together</h2>
@@ -187,9 +205,9 @@
 
                 25 students from the Technical University of Munich are contributing to the Music Connection Machine.
                 They are analyzing billions of web pages from the CommonCrawl dataset and extracting information about
-                classical composers, their works and the musicians. The code is open source and is developed in the open on
+                classical composers, their works and the musicians. The code is open source and is developed on
                 <a href="https://github.com/MusicConnectionMachine">Github</a>.
-                The public release is scheduled for June 1st 2017.
+                The public release is scheduled for June 1st 2017. Stay tuned!
 
             </span></span>
             </p>
@@ -198,33 +216,27 @@
 </section>
 
 
-<section id="supporters" class="container content-section text-center" style="padding-top: 70px; padding-bottom: 70px;">
+<section id="supporters" class="container content-section text-center" style="padding-top: 70px; padding-bottom: 70px; background-color: #f3e4c6; width: 100%">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Supporters</h2>
 
             <p><span style="font-family:open sans;"><span style="font-size:20pt;">
 
-            <div style="width: 250px; display: inline-block">
-                <a href="https://www.egi.eu">
-                    <img src="img/peachnote-logotype-small.png" width="250"/>
-                </a>
-            </div>
-
-            <div style="width: 250px; display: inline-block">
-                <a href="https://www.egi.eu">
+            <div style="width: 250px; display: inline-block; margin: 10px; padding-top: 20px">
+                <a href="https://www.tum.de">
                     <img src="http://echord.eu/public/wp-content/uploads/2015/10/TUM.png" width="250"/>
                 </a>
             </div>
 
-            <div style="width: 250px; display: inline-block">
-                <a href="https://www.egi.eu">
+            <div style="width: 250px; display: inline-block; margin: 10px">
+                <a href="https://www.upf.edu">
                     <img src="https://www.upf.edu/upf-2016-theme/images/logo.png" width="250"/>
                 </a>
             </div>
 
-            <div style="width: 250px; display: inline-block">
-                <a href="https://www.egi.eu">
+            <div style="width: 250px; display: inline-block; margin: 10px">
+                <a href="https://www.tudelft.nl">
                     <img src="http://www.ce.ewi.tudelft.nl/fileadmin/ce/images/TUDLogo.png" width="250"/>
                 </a>
             </div>
@@ -248,34 +260,25 @@
 
             </span></span>
             </p>
+
+
+            <div style="width: 250px; display: inline-block">
+                <a href="https://www.peachnote.com">
+                    <img src="img/peachnote-logotype-small.png" width="250"/>
+                </a>
+                <span style="color: black">(Coordination)</span>
+
+            </div>
+
         </div>
     </div>
 </section>
 
-<!--
-<section id="how" class="container content-section text-center" style="width: 100%">
-    <div class="row" style="background: rgba(256,256,256,0.9);
-                padding-top: 50px; padding-bottom: 40px; border-radius: 1px; color: black; width: 60%; margin-left: 20%" >
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2>This is how it will work</h2>
 
-            <p><span style="font-family:open sans;"><span style="font-size:24px;">
-                  We analyze every score, recording and book<br>
-                  that we can get our hands on,<br>
-                  find interesting connections between them<br>
-                  and make these connections accessible <br>through easy to use interfaces,<br>
-                  so that your musical knowledge stretches further and further,<br>
-                  click for click</span></span></p>
-        </div>
-    </div>
-</section>
--->
-
-<!-- Download Section -->
-<section id="survey" class="content-section text-center" style="padding-top: 100px;">
+<section id="survey" class="content-section text-center" style="padding-top: 120px;">
     <div class="download-section">
         <div class="container" style="background: rgba(256,256,256,0.9);
-                padding-top: 50px; padding-bottom: 50px; border-radius: 1px; color: black; width: 60%; margin-left: 20%">
+                padding-top: 50px; padding-bottom: 0px; border-radius: 1px; color: black; width: 60%; margin-left: 20%">
             <div class="col-lg-8 col-lg-offset-2" style="font-size:24px; line-height: 50px; font-family:open sans;">
                 <h1 class="brand-heading" style="color: #ba7c33">Your opinion matters</h1>
 
@@ -283,12 +286,28 @@
                 Tell us and be the first to know<br>
                 when they are ready for you. <br>
 
+
                 <a id="survey-butt"
                    href="https://docs.google.com/forms/d/1znpMOy_xWsbtz9Xocbxkrykc7ndbdex3IJsBBEjY3R0/viewform"
                    class="btn btn-default btn-lg btn-survey" style="margin-top: 55px; margin-bottom: 50px;">
                     To the Survey
                 </a>
-            </div>
+
+                <div>
+                <p>Want to join us? Let's get in touch!
+
+
+                <div class="social">
+                    <span class="twitter">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="musicconnectionmachine" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </span>
+
+                    <span class="Facebook">
+                      <div class="fb-share-button" data-href="http://musicconnectionmachine.org" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmusicconnectionmachine.org%2F&amp;src=sdkpreparse">Share</a></div>
+                    </span>
+                </div>
+
+                    <br>
         </div>
     </div>
 </section>
@@ -296,7 +315,7 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-        <!-- <p>Copyright &copy; Peachnote 2015</p>-->
+        <a href="http://peachnote.com/impressum" style="color: #828282">Impressum</a>
     </div>
 </footer>
 
@@ -319,6 +338,16 @@
         });
     });
 </script>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 </body>
 
